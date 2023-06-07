@@ -3,3 +3,82 @@ body {
   height: 100%;
   margin: 0;
 }
+body,header {
+  text-align: center;
+}
+
+/* Center the image */
+#featured-property figure {
+  text-align: center;
+}
+
+/* Jazz up navigation links */
+nav a {
+  padding: 10px;
+  background-color: grey;
+}
+
+/* Update image caption */
+#featured-property figcaption {
+  font-size: 14px;
+  text-align: center;
+}
+
+/* Update text block */
+#featured-property p {
+  width: 800px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+/* Make details section horizontal */
+#details div {
+  float: left;
+  width: 25%;
+}
+
+/* Styling for the bottom row divs */
+#details div {
+  background-color: lightgray;
+  text-align: center;
+}
+
+section#details {
+  background-color: #d81a1a;
+  padding: 20px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+section#details div {
+  flex-basis: 25%;
+}
+
+section#details h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+section#details a {
+  color: #2851aa;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  header {
+    padding: 10px;
+  }
+
+  header h1 {
+    font-size: 20px;
+  }
+
+  section#details {
+    flex-wrap: wrap;
+  }
+
+  section#details div {
+    flex-basis: 50%;
+  }
+}
